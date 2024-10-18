@@ -16,6 +16,9 @@ export default {
         'inactive': '#444444', // gray
         'primary': '#ff5925', // orange
         'hover': '#ff8058' // dark orange
+      },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
       }
     },
   },
