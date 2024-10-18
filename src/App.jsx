@@ -2,6 +2,7 @@ import { faArrowRight, faBurger, faCheckCircle } from "@fortawesome/free-solid-s
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function App() {
+
   return (
     <div className='bg-background flex flex-col items-center min-h-screen'>
       <div className="w-full border-b border-dashed border-zinc-700 py-5">
@@ -13,10 +14,11 @@ function App() {
 
             <div className="flex flex-row items-center gap-6 underline-offset-4">
                 <button className='text-white font-semibold hover:underline decoration-primary'>About</button>
+                <button className='text-white font-semibold hover:underline decoration-primary'>Features</button>
                 <button className='text-white font-semibold hover:underline decoration-primary'>Pricing</button>
                 <div className="flex flex-row items-center border-l border-zinc-700 border-dashed gap-6">
-                    <button className='text-white font-semibold ml-6 hover:underline decoration-primary'>Log In</button>
-                    <button className='font-semibold rounded-lg hover:bg-hover bg-primary px-3 py-1'>Get Started</button>
+                    <a href="https://dashboard.cravings.club/" className='text-white font-semibold ml-6 hover:underline decoration-primary'>Log In</a>
+                    <a href="https://dashboard.cravings.club/register" className='font-semibold rounded-lg hover:bg-hover bg-primary px-3 py-1'>Get Started</a>
                 </div>
             </div>
         </div>
@@ -29,10 +31,10 @@ function App() {
 
           <span className="py-3 font-light">Gain insight and provide your customers with a loyalty <br/> program that suits your needs.</span>
 
-          <button className="text-2xl text-white font-bold rounded-lg hover:bg-hover gap-3 bg-primary px-4 py-2 flex flex-row justify-center items-center">
+          <a href="https://dashboard.cravings.club/register" className="text-2xl text-white font-bold rounded-lg hover:bg-hover gap-3 bg-primary px-4 py-2 flex flex-row justify-center items-center">
             Get Started
             <FontAwesomeIcon className='' size='lg' icon={faArrowRight}/>
-          </button>
+          </a>
 
           <div className="flex flex-row items-center mt-5">
             <FontAwesomeIcon className="text-primary" size='1x' icon={faCheckCircle}/>
@@ -45,7 +47,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full py-5 px-5 text-white bg-primary flex flex-row text-nowrap"> 
+      <div className="w-full py-5 px-5 text-white bg-primary flex flex-row text-nowrap overflow-hidden"> 
         <h1 className="text-4xl">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </h1>
