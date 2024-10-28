@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="px-20 w-full bg-white flex flex-row flex-grow items-center min-h-full">
             <div className="flex flex-col">
             <h1 className="text-6xl font-bold">A Loyalty Program</h1>
-            <h1 className="text-5xl font-bold">for <span className="text-primary">YOUR</span> restaurant</h1>
+            <h1 className="text-5xl font-bold">For <span className="text-primary">Your</span> Restaurant</h1>
 
             <span className="py-3 font-light">Gain insight and provide your customers with a loyalty <br/> program that suits your needs.</span>
 
