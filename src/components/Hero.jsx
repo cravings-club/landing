@@ -5,12 +5,12 @@ const Hero = () => {
     return (
         <div className="px-20 w-full bg-white flex flex-row flex-grow items-center min-h-full">
             <div className="flex flex-col">
-            <h1 className="text-6xl font-bold">A Loyalty Program</h1>
-            <h1 className="text-5xl font-bold">For <span className="text-primary">Your</span> Restaurant</h1>
+            <h1 className="text-6xl font-bold">A loyalty program</h1>
+            <h1 className="text-5xl font-bold">for <span className="text-primary">your</span> restaurant</h1>
 
             <span className="py-3 font-light">Gain insight and provide your customers with a loyalty <br/> program that suits your needs.</span>
 
-            <a href="https://dashboard.cravings.club/register" className="text-2xl text-white font-bold rounded-lg hover:bg-hover gap-3 bg-primary px-4 py-2 flex flex-row justify-center items-center">
+            <a href="https://dashboard.cravings.club/register" className="text-2xl text-white font-semibold rounded-lg hover:bg-hover gap-3 bg-primary px-4 py-2 flex flex-row justify-center items-center">
                 Get Started
                 <FontAwesomeIcon className='' size='lg' icon={faArrowRight}/>
             </a>
